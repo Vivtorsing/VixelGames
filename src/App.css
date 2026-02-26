@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #2c2f33;
+  color: white;
+  overflow-x: hidden;
+}
+
+.game-page {
+  text-align: center;
+  padding: 30px;
+}
+
+.header {
+  animation: fadeIn 1s ease;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ffb6c1;
+  text-shadow: 0 0 10px #ffb6c1;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ffdce5;
+}
+
+.game-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  animation: fadeInUp 1s ease;
+}
+
+.game-container iframe {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 182, 193, 0.5);
+}
+
+.game-frame {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 4px solid #ffb6c1;
+  border-radius: 25px;
+  pointer-events: none;
+  animation: glow 2s infinite alternate;
+}
+
+.description {
+  margin-top: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid #ffb6c1;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255, 182, 193, 0.2);
+}
+
+.description h2 {
+  color: #ffb6c1;
+}
+
+.footer {
+  margin-top: 30px;
+  color: #ffdce5;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ffb6c1;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/*animations*/
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px #ffb6c1; }
+  to { box-shadow: 0 0 25px #ffb6c1; }
+}
