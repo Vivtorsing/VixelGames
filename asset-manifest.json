@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/VixelGames/static/css/main.7903ff30.css",
+    "main.js": "/VixelGames/static/js/main.1202bced.js",
+    "static/js/453.037c6750.chunk.js": "/VixelGames/static/js/453.037c6750.chunk.js",
+    "index.html": "/VixelGames/index.html",
+    "main.7903ff30.css.map": "/VixelGames/static/css/main.7903ff30.css.map",
+    "main.1202bced.js.map": "/VixelGames/static/js/main.1202bced.js.map",
+    "453.037c6750.chunk.js.map": "/VixelGames/static/js/453.037c6750.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7903ff30.css",
+    "static/js/main.1202bced.js"
+  ]
+}
