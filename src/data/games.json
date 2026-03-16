@@ -1,0 +1,24 @@
+[
+  {
+    "id": "idle-satellite",
+    "name": "Idle Satellite",
+    "folder": "idleSatellite",
+    "width": 1280,
+    "height": 720,
+    "seo": {
+      "title": "Idle Satellite - A Love2D Idle Space Satellite Game",
+      "description": "Launch Satellites into space to earn money and grow your satellite empire!",
+      "keywords": ["love2d", "space game", "idle", "idle game", "browser game"]
+    },
+    "description": "A idle game where you launch satellites into space to earn money! ",
+    "howToPlay": "Click on the globe to earn money then buy satllites and enjoy!",
+    "controls": [
+      { "key": "Left Click", "action": "Interact With The Game" }
+    ],
+    "tags": ["Idle", "Space"],
+    "releaseDate": "2026-02-23",
+    "version": "1.0.1",
+    "color": "#000000",
+    "images": ["screenshots/idleSatelliteLogo.png", "screenshots/idleSatelliteStart.png", "screenshots/idleSatelliteMax.png"]
+  }
+]
