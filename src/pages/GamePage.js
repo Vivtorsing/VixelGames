@@ -75,8 +75,8 @@ function GamePage() {
 
         <div className="game-iframe-section"
         style={{ 
-              minWidth: `${game.width}px`,
-              aspectRatio: `${game.width} / ${game.height}`
+              maxWidth: `${game.width}px`,
+              aspectRatio: `${game.width} / ${game.height}`,
             }}>
           <div 
             className="game-iframe-container"

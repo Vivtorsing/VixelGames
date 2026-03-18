@@ -20,5 +20,27 @@
     "version": "1.0.1",
     "color": "#000000",
     "images": ["screenshots/idleSatelliteLogo.png", "screenshots/idleSatelliteStart.png", "screenshots/idleSatelliteMax.png"]
+  },
+  {
+    "id": "eyes",
+    "name": "Eyes",
+    "folder": "Eyes",
+    "width": 800,
+    "height": 600,
+    "seo": {
+      "title": "Eyes - A Silly Freddy Eyes Game",
+      "description": "Watch as Freddy follow your cursor! Be careful with Freddy's nose...",
+      "keywords": ["silly", "freddy"]
+    },
+    "description": "Watch as Freddy follow your cursor! Be careful with Freddy's nose...",
+    "howToPlay": "Click to plant seeds, drag the watering can to water plants. Visit the shop to buy new seeds and decorations.",
+    "controls": [
+      { "key": "Left Click", "action": "Interact With The Game" }
+    ],
+    "tags": ["Silly"],
+    "releaseDate": "2026-02-01",
+    "version": "1.0.0",
+    "color": "#00b894",
+    "images": []
   }
 ]
